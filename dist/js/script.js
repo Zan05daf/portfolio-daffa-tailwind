@@ -68,14 +68,7 @@ contactForm.addEventListener('submit', function(e){
         mode: "no-cors",
     }).then(() => {
         //url thanks
-        window.location.href = "thanks.html";
+        window.location.href = "dist/html/thanks.html";
     })
     .catch((e) => alert("Error occured"));
-});
-
-//Go Back
-const goBack = document.querySelector('#goback');
-
-goBack.addEventListener('click',() => {
-    window.location.href = "index.html";
 });
